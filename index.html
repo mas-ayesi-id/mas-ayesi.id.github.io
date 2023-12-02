@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destination Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>Vacation Destination Quiz</h1>
+
+    <form id="quizForm">
+        <h2>Personality Questions</h2>
+
+        <div class="question">
+            <label for="q1">Do you enjoy spending time in nature and engaging in physical activities?</label>
+            <input type="radio" id="q1Yes" name="q1" value="Yes">
+            <label for="q1Yes">Yes</label>
+            <input type="radio" id="q1No" name="q1" value="No">
+            <label for="q1No">No</label>
+        </div>
+
+        <div class="question">
+            <label for="q2">Do you prefer relaxing and soaking up the sun on beautiful beaches?</label>
+            <input type="radio" id="q2Yes" name="q2" value="Yes">
+            <label for="q2Yes">Yes</label>
+            <input type="radio" id="q2No" name="q2" value="No">
+            <label for="q2No">No</label>
+        </div>
+
+        <div class="question">
+            <label for="q3">Are you fascinated by ancient cultures and historical landmarks?</label>
+            <input type="radio" id="q3Yes" name="q3" value="Yes">
+            <label for="q3Yes">Yes</label>
+            <input type="radio" id="q3No" name="q3" value="No">
+            <label for="q3No">No</label>
+        </div>
+
+        <div class="question">
+            <label for="q4">Do you thrive in bustling cities and enjoy exploring different neighborhoods?</label>
+            <input type="radio" id="q4Yes" name="q4" value="Yes">
+            <label for="q4Yes">Yes</label>
+            <input type="radio" id="q4No" name="q4" value="No">
+            <label for="q4No">No</label>
+        </div>
+
+        <div class="question">
+            <label for="q5">Are you passionate about food and eager to try new cuisines?</label>
+            <input type="radio" id="q5Yes" name="q5" value="Yes">
+            <label for="q5Yes">Yes</label>
+            <input type="radio" id="q5No" name="q5" value="No">
+            <label for="q5No">No</label>
+        </div>
+
+        <button type="button" id="submitButton">Submit</button>
+    </form>
+
+    <div id="result">
+        <h2>Recommended Destination:</h2>
+        <p></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
